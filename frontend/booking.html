@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book Ticket</h1>
+    <p>Movie: <span id="movieName"></span></p>
+    <p>Show Time: <span id="showTime"></span></p>
+    <p>Price: ₹ <span id="price"></span></p>
+    <input id="seats" type="number" placeholder="Number of Seats" min="1"><br>
+    <p>Total: ₹ <span id="total">0</span></p>
+    <button onclick="calculateTotal()">Calculate</button>
+    <button onclick="bookTicket()">Book</button>
+    <script src="script.js"></script>
+</body>
+</html>
